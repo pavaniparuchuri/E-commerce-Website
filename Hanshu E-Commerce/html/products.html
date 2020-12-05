@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Hanshu | Ecommerce Website Design</title>
+        <link rel="stylesheet" href="../css/hanshh.css">
+		<link rel="stylesheet" href="../css/style.css">
+    </head>
+    <header>
+        <div class="main">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    
+                </div>
+                <div class="search-bar">
+                    <form>
+                        <input type="text"  id="txt" name="search" placeholder="Search..." onkeyup="inputFunction()">
+                        <input type="button" id="sbar" name="search" placeholder="search" onclick="searchFunction()" value="search">
+                    </form>
+                </div>
+				
+                <nav>
+                    <ul>
+					<li><a href="html/hanshu.html">Home</a></li>
+					<li><a href="html/products.html">Products</a></li>
+					<li><a href="">Contact</a></li>
+					<li><a href="">About</a></li>
+                        
+                    </ul>
+					
+                </nav>
+				<h1><a href="../html/hanshu.html">Hanshu</a></h1>
+            </div>
+            <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+        </div>
+        </div>
+
+    </header>
+    <body>
+        <div class="sidenav">
+            <div>
+                <input class="a" type="button" value="Filter by Price"></br>
+                <input class="aa" type="button" value="Below 1000" onclick="filter1000()"></br>
+                <input class="aa" type="button" value="Between 1000 and 2000" onclick="filter2000()"></br>
+                <input class="aa" type="button" value="Between 2000 and 5000" onclick="filter5000()"></br>
+            </div>
+          </div>
+        <div class="product-list">
+            <div id="add"></div>
+        </div>
+
+        <div class="product-list">
+            <div id="addl"></div>
+        </div>
+
+        <script type="text/javascript" language="javascript" src="../javascript/product.js"></script>
+        
+    </body>
+</html>
